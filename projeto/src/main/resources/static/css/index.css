@@ -1,0 +1,9 @@
+h1{
+    color:aquamarine
+}
+
+img{
+    object-fit: contain;
+    width: 350px;
+    height: 300px;
+}

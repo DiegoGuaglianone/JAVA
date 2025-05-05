@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMEIRA PAGINA </title>
+    <link rel="stylesheet" th:href="@{css/index.css}">
+    <script th:src="@{js/index.js}"></script>
+</head>
+<body>
+    <h1> Olá, Mundo! </h1>
+    <button id="btn1">BOTÃO</button>
+    <img th:src="@{images/charmander.jpeg}"><br>
+    <ul>
+        <li><a th:href="@{/p1}">PAGINA1</a></li>
+        <li><a th:href="@{/p2}">PAGINA2</a></li>
+    </ul>
+</body>
+</html>
